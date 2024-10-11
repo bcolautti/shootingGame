@@ -26,9 +26,9 @@ class Player
   
   Player(int startingX, int startingY, int startingW, int startingH)
   {
-    fregadosFile = new SoundFile(ShootingGame.this, "audio/fregados.mp3");
-    shootFile = new SoundFile(ShootingGame.this, "audio/disparo_1.wav");
-    image = loadImage("images/caza_1.png");
+    fregadosFile = new SoundFile(ShootingGame.this, "resources/audio/fregados.mp3");
+    shootFile = new SoundFile(ShootingGame.this, "resources/audio/disparo_1.wav");
+    image = loadImage("resources/images/caza_1.png");
     image.resize(100, 100);
     imageWidth = image.width;
     //println("imageWidth: "+imageWidth);

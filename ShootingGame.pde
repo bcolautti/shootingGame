@@ -24,10 +24,10 @@ void setup() {
   statusBarManager = new StatusBarManager();
 
   // Load a soundfile from the /data folder of the sketch and play it back
-  file = new SoundFile(this, "audio/backgroundWind.wav");
-  kaboom =  new SoundFile(this, "audio/kaboom.wav");
-  klang =  new SoundFile(this, "audio/klang.wav");
-  bulletCollision = new SoundFile(this, "audio/bulletKlang.wav");
+  file = new SoundFile(this, "resources/audio/backgroundWind.wav");
+  kaboom =  new SoundFile(this, "resources/audio/kaboom.wav");
+  klang =  new SoundFile(this, "resources/audio/klang.wav");
+  bulletCollision = new SoundFile(this, "resources/audio/bulletKlang.wav");
   file.play();
 }
 
